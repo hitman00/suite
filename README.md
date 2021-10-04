@@ -1,20 +1,25 @@
-# suite
+# Suite Landing page
 
-## Build Setup
+I try to implement this concept design for web.
 
-```bash
-# install dependencies
-$ npm install
+![Image](https://github.com/hitman00/suite/blob/master/assets/imgs/demo.PNG)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Link
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+- [Demo](https://hitman00.github.io/suite/)
+- Concept page: [Dribbble page](https://dribbble.com/shots/15039917-Suite-Landing-Page/attachments/6765013?mode=media)
+- Images: [Google](https://google.com) - [Dribbble](https://dribbble.com/)
 
-# generate static project
-$ npm run generate
-```
+## Technologies
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+- NuxtJs (SSG)
+- Scss
+
+## License
+
+This repository is licensed under the [GPL-3.0](https://opensource.org/licenses/GPL-3.0).
+
+## Contact Us
+
+- E-mail: <mrezaee79@gmail.com.com><br>
+- Telegram: [@Hitman](https://telegram.me/hitman0012)

@@ -1,10 +1,6 @@
 <template>
   <div :class="$style.main">
     <div :class="$style.max_size">
-      <!-- <div :class="$style.cycle">
-        <span></span>
-      </div> -->
-
       <HeaderTop />
       <div :class="$style.slid_box">
         <div :class="$style.boxs">
@@ -72,35 +68,15 @@ export default {
 
 <style lang="scss" module>
 .main {
-  width: 100%;
   background: #edf0f6;
   position: relative;
+  overflow: hidden;
 }
 
 .max_size {
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-.cycle {
-  width: 40%;
-  padding-bottom: 40%;
-  background: #fefefe;
-  border-radius: 50%;
-  position: absolute;
-  top: -10%;
-  left: -6%;
-  span {
-    display: block;
-    width: 40%;
-    padding-bottom: 40%;
-    background: #edf0f6;
-    border-radius: 50%;
-    top: 21%;
-    position: absolute;
-    left: 32%;
-  }
 }
 
 .slid_box {

@@ -67,7 +67,7 @@ export default {
       }, 40)
       const number = setInterval(() => {
         this.list[2].num++
-        if (this.list[2].num++ > 16) {
+        if (this.list[2].num++ >= 16) {
           clearInterval(number)
         }
       }, 100)

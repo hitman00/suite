@@ -168,7 +168,7 @@ export default {
   padding-bottom: 100%;
   background: #fff;
   border-radius: 50%;
-  position: absolute;
+  position: relative;
   top: 12%;
 }
 
@@ -231,5 +231,89 @@ export default {
   font-weight: 600;
   font-size: 18px;
   margin-top: 7%;
+}
+
+.note_description {
+  font-size: 13px;
+}
+
+@media (max-width: 1225px) {
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 985px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .search input {
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .note_title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 775px) {
+  .boxs {
+    width: 100%;
+  }
+
+  .slid_box {
+    flex-direction: column;
+  }
+
+  .fix_size {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .description {
+    margin-right: 0;
+  }
+
+  .search {
+    margin: 0 11%;
+    flex-direction: column;
+    padding: 2.5%;
+  }
+
+  .search input {
+    width: 100%;
+    padding: 4%;
+    border: 1px dashed #000;
+    border-radius: 14px;
+    margin-left: 0;
+    margin-bottom: 4%;
+  }
+
+  .btn {
+    padding: 4%;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 27px;
+  }
+
+  .note_title {
+    font-size: 13px;
+  }
+
+  .note_description {
+    font-size: 10px;
+  }
 }
 </style>

@@ -92,4 +92,34 @@ export default {
     width: 100%;
   }
 }
+
+@media (max-width: 1000px) {
+  .slide_title {
+    font-size: 25px;
+  }
+
+  .slide_description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 775px) {
+  .slide_tag {
+    font-size: 14px;
+  }
+
+  .slide_title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .slide_main {
+    flex-direction: column;
+  }
+
+  .slide_box {
+    width: 100%;
+  }
+}
 </style>

@@ -17,7 +17,7 @@
       <div :class="$style.login">
         <ul>
           <li>Login</li>
-          <li><a href="#">Github</a></li>
+          <li><a href="https://hitman00.github.io/suite/">Github</a></li>
         </ul>
       </div>
     </div>
@@ -65,6 +65,7 @@ export default {
   align-items: center;
   padding: 2% 0;
   position: relative;
+  justify-content: space-between;
 }
 
 .logo {
@@ -113,6 +114,24 @@ export default {
         background: #367df9;
         color: #fff;
       }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .meno {
+    display: none;
+  }
+
+  .login,
+  .logo {
+    width: 50%;
+  }
+
+  .login ul {
+    justify-content: end;
+    li {
+      padding: 2% 5%;
     }
   }
 }

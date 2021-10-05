@@ -12,8 +12,12 @@
           Lets enjoy with Suits various previleges and attractive offers for you
         </div>
         <div :class="$style.downloads">
-          <img src="@/assets/imgs/app_download.png" />
-          <img src="@/assets/imgs/google_play.png" />
+          <div :class="$style.download_image">
+            <img src="@/assets/imgs/app_download.png" />
+          </div>
+          <div :class="$style.download_image">
+            <img src="@/assets/imgs/google_play.png" />
+          </div>
         </div>
       </div>
     </div>
@@ -79,13 +83,79 @@ export default {
   justify-content: space-evenly;
   margin-top: 8%;
   margin-right: 13%;
+}
+
+.download_image {
+  position: relative;
+  width: 40%;
+  &:before {
+    content: '';
+    display: block;
+    padding-bottom: 30%;
+  }
   img {
-    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
     transition: all 0.3s ease;
     cursor: pointer;
     &:hover {
       opacity: 0.7;
     }
+  }
+}
+
+@media (max-width: 1000px) {
+  .title {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 25px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .max_size {
+    flex-direction: column;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .iphone_img {
+    display: none;
+  }
+
+  .gt_boxs {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .description {
+    padding-right: 0;
+  }
+
+  .downloads {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 390px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
   }
 }
 </style>

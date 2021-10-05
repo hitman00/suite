@@ -142,4 +142,47 @@ export default {
     opacity: 0.7;
   }
 }
+
+@media (max-width: 700px) {
+  .max_size {
+    flex-direction: column-reverse;
+  }
+
+  .footer_box {
+    width: 100%;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .copy_right {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .social {
+    margin: 0 33%;
+  }
+}
+
+@media (max-width: 450px) {
+  .logo {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 375px) {
+  .logo {
+    font-size: 22px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .pages {
+    font-size: 12px;
+  }
+}
 </style>

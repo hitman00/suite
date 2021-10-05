@@ -112,4 +112,35 @@ export default {
   font-size: 35px;
   color: #162d59;
 }
+
+@media (max-width: 1420px) {
+  .title {
+    font-size: 16px;
+  }
+
+  .number {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .number {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1020px) {
+  .title {
+    font-size: 14px;
+  }
+
+  .number {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 775px) {
+  .number_main {
+    display: none;
+  }
+}
 </style>

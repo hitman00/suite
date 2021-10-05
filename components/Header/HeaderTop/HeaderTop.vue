@@ -134,5 +134,10 @@ export default {
       padding: 2% 5%;
     }
   }
+
+  .cycle {
+    top: -6%;
+    left: -16%;
+  }
 }
 </style>
